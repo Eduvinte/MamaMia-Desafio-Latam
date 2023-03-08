@@ -16,7 +16,7 @@ export const DataProvider = ({children}) => {
 
     useEffect(() => {
         axios
-        .get('https://www.dropbox.com/s/xoqgvva6ryjb665/pizzas.json?dl=1')
+        .get('https://eduvinte.github.io/json/pizzas.json')
         .then( response => setData(response.data))
         .catch(error => console.log(error));
     }, [])
