@@ -1,0 +1,27 @@
+.container_navbar {
+    background-color: $color_one;
+    padding: 20px;
+    max-width: 100%;
+    z-index: 2;
+    #titulo_navbar {
+        color: $color_three;
+        font-family: $global_font;
+        font-weight: bold;
+        box-shadow: -1px 8px 14px -10px black;
+        padding: 5px;
+    }
+
+    #cart_navbar {
+        font-size: 35px;
+        color: $color_three;
+        margin-left: 50px;
+    }
+}
+
+.total_pizza {
+    font-family: $global_font;
+    color: $color_three;
+    font-weight: bold;
+    z-index: 2;
+    font-size: 20px;
+}

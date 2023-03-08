@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Rampart+One&family=Shantell+Sans:wght@300&display=swap');
+
+
+// Mixis
+@import './Mixis/Mixis';
+
+// Config
+@import './config/Variables';
+@import './config/Global';
+
+// Components
+@import './components/NavBar';
+
+// Pages
+@import './pages/Home';
+@import './pages/Carrito';
+@import './pages/Detalles';
+

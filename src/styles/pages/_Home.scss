@@ -1,0 +1,52 @@
+.container_home {
+
+    @include container_home_mixin;
+    background-image: url('../../images/fondoPizza.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color_three;
+
+
+
+    hr {
+        height: 1px;
+        color: #ffffff;
+        background-color: #ffffff;
+        margin-bottom: 20px;
+        border: none;
+        width: 45%;
+        margin-top: 5px;
+    }
+}
+
+.container_pizzas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.list_pizzas {
+    padding: 15px;
+}
+
+.agregado {
+    background-color: green;
+    position: fixed;
+    top: 3%;
+    padding: 2%;
+    right: 3%;
+    border-radius: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: (0%);
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+#go_to_car {
+    text-decoration: none;
+    color: $color_one;
+}

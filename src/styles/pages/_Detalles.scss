@@ -1,0 +1,36 @@
+#pizzas_detalles {
+    display: flex;
+    padding: 5%;   
+}
+
+@media(max-width: 768px){
+    #pizzas_detalles {
+        display: flex;
+        padding: 5%;
+        flex-wrap: wrap; 
+    }
+}
+
+#contenida_detalles_pizzas {
+    display: flex;
+    margin-left:5%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#precio_anadir {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#img_detalles {
+    width: 500px;
+}
+
+@media (max-width: 768px) {
+    #img_detalles {
+        width: 100%;
+    }
+}
