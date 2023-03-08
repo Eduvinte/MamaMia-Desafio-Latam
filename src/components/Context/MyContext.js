@@ -16,7 +16,7 @@ export const DataProvider = ({children}) => {
 
     useEffect(() => {
         axios
-        .get('https://eduvinte.github.io/json/pizzas.json?rand=${Math.random()}')
+        .get('')
         .then( response => setData(response.data))
         .catch(error => console.log(error));
     }, [])
