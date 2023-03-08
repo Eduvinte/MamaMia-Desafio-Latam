@@ -17,7 +17,7 @@ function DetalhePizza() {
 
 
   useEffect(() => {
-    axios.get('https://eduvinte.github.io/json/pizzas.json')
+    axios.get('https://eduvinte.github.io/json/pizzas.json?rand=${Math.random()}')
       .then(response => setData(response.data))
       .catch(error => console.log(error))
     console.log(data)
