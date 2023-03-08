@@ -16,7 +16,7 @@ export const DataProvider = ({children}) => {
 
     useEffect(() => {
         axios
-        .get('http://localhost:3002/pizzas')
+        .get(process.env.REACT_APP_DB_URL)
         .then( response => setData(response.data))
         .catch(error => console.log(error));
     }, [])
