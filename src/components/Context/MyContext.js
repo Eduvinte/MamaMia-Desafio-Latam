@@ -16,7 +16,7 @@ export const DataProvider = ({children}) => {
 
     useEffect(() => {
         axios
-        .get(process.env.REACT_APP_DB_URL)
+        .get('https://www.dropbox.com/s/xoqgvva6ryjb665/pizzas.json?dl=0')
         .then( response => setData(response.data))
         .catch(error => console.log(error));
     }, [])
